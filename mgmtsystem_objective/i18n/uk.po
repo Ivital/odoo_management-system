@@ -1,0 +1,184 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields.selection,name:mgmtsystem_objective.selection__mgmtsystem_indicator__state__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__activity_ids
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields.selection,name:mgmtsystem_objective.selection__mgmtsystem_indicator__state__cancelled
+#: model:ir.model.fields.selection,name:mgmtsystem_objective.selection__mgmtsystem_objective__state__cancelled
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__comment
+msgid "Comment"
+msgstr "Коментар"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__date_end
+msgid "Date End"
+msgstr "Дата завершення"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__date_start
+msgid "Date Start"
+msgstr "Дата початку"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__description
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__message_follower_ids
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__frequency
+msgid "Frequency"
+msgstr "Частота"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__has_message
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__activity_exception_icon
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: mgmtsystem_objective
+#: model:ir.model,name:mgmtsystem_objective.model_mgmtsystem_indicator
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__indicator_id
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__indicator_ids
+msgid "Indicator"
+msgstr "Показник"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__message_is_follower
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__message_ids
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__name
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: mgmtsystem_objective
+#: model:ir.model,name:mgmtsystem_objective.model_mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__objective_id
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__objective_id
+msgid "Objective"
+msgstr "Ціль"
+
+#. module: mgmtsystem_objective
+#: model:ir.actions.act_window,name:mgmtsystem_objective.mgmtsystem_objective_act_window
+#: model:ir.ui.menu,name:mgmtsystem_objective.mgmtsystem_objective_menu
+msgid "Objectives"
+msgstr "Цілі"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__value_state
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__value_state
+msgid "On Target?"
+msgstr "У межах цілі?"
+
+#. module: mgmtsystem_objective
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_objective.mgmtsystem_indicator_tree_view
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__user_id
+msgid "Owner"
+msgstr "Власник"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields.selection,name:mgmtsystem_objective.selection__mgmtsystem_indicator_value__state__posted
+msgid "Posted"
+msgstr "Проведено"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__state
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__state
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__state
+msgid "State"
+msgstr "Стан"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_objective__system_id
+msgid "System"
+msgstr "Система"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__value_ids
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator_value__value
+msgid "Value"
+msgstr "Значення"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__value
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_objective.mgmtsystem_indicator_form_view
+msgid "Values"
+msgstr "Значення"

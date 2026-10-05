@@ -1,0 +1,176 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_audits
+msgid "# of audits"
+msgstr "Кількість аудитів"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: mgmtsystem_audit
+#: model:ir.model,name:mgmtsystem_audit.model_mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__audit_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_report_mgmtsystem_audit_graph
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_report_mgmtsystem_audit_pivot
+msgid "Audit"
+msgstr "Аудит"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__auditee_user_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Auditees"
+msgstr "Об’єкти аудиту"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__auditor_user_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Auditors"
+msgstr "Аудитори"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.open_mgmtsystem_audit_list
+#: model:ir.ui.menu,name:mgmtsystem_audit.menu_open_audit
+#: model:ir.ui.menu,name:mgmtsystem_audit.menu_report_mgmtsystem_audit_tree
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_audit_calendar
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Audits"
+msgstr "Аудити"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields.selection,name:mgmtsystem_audit.selection__mgmtsystem_audit__state__done
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Closed"
+msgstr "Закрито"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__closing_date
+msgid "Closing Date"
+msgstr "Дата закриття"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__comments
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Comments"
+msgstr "Коментарі"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__company_id
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__nonconformity_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Nonconformities"
+msgstr "Невідповідності"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields.selection,name:mgmtsystem_audit.selection__mgmtsystem_audit__state__open
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__procedure_id
+msgid "Procedure"
+msgstr "Процедура"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__name
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Question"
+msgstr "Питання"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__reference
+msgid "Reference"
+msgstr "Посилання"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__seq
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__state
+msgid "State"
+msgstr "Стан"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__system_id
+msgid "System"
+msgstr "Система"
