@@ -356,3 +356,227 @@ msgstr "Шаблон посібника з якості"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem.res_config_settings_view_form
 msgid "Top management reviews."
 msgstr "Огляди вищого керівництва."
+
+#. module: mgmtsystem
+#: model:res.groups,name:mgmtsystem.group_mgmtsystem_user_manager
+msgid "Approving User"
+msgstr "Користувач, що схвалює"
+
+#. module: mgmtsystem
+#: model:res.groups,name:mgmtsystem.group_mgmtsystem_auditor
+msgid "Auditor"
+msgstr "Аудитор"
+
+#. module: mgmtsystem
+#: model:ir.module.category,description:mgmtsystem.module_category_management_system
+msgid ""
+"Manage management systems, manuals, KPIs, nonconformities, actions, "
+"feedbacks, audits, reviews."
+msgstr ""
+"Керування системами менеджменту, посібниками, KPI, невідповідностями, діями,"
+" відгуками, аудитами й оглядами."
+
+#. module: mgmtsystem
+#: model:res.groups,comment:mgmtsystem.group_mgmtsystem_manager
+msgid "Module administrator, able to modify configuration data."
+msgstr "Адміністратор модуля, який може змінювати дані конфігурації."
+
+#. module: mgmtsystem
+#: model:res.groups,comment:mgmtsystem.group_mgmtsystem_user_manager
+msgid "Module user with additional permission for approvals."
+msgstr "Користувач модуля з додатковим дозволом на схвалення."
+
+#. module: mgmtsystem
+#: model:res.groups,comment:mgmtsystem.group_mgmtsystem_auditor
+msgid ""
+"Module user with additional permission specific for the auditor job, such as"
+" effectiveness reviews."
+msgstr ""
+"Користувач модуля з додатковими правами для роботи аудитора, наприклад "
+"перевірок результативності."
+
+#. module: mgmtsystem
+#: model:res.groups,comment:mgmtsystem.group_mgmtsystem_viewer
+msgid "Module user with general read only access."
+msgstr "Користувач модуля із загальним доступом лише для читання."
+
+#. module: mgmtsystem
+#: model:res.groups,comment:mgmtsystem.group_mgmtsystem_user
+msgid "Module user, with general read and write."
+msgstr "Користувач модуля із загальними правами читання та запису."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_environmental_aspect
+msgid ""
+"Provide Environmental Aspect category.\n"
+"- This installs the module mgmtsystem_environmental_aspect."
+msgstr ""
+"Надає категорію екологічних аспектів.\n"
+"- Встановлює модуль mgmtsystem_environmental_aspect."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_security_event
+msgid ""
+"Provide Feared Events.\n"
+"- This installs the module mgmtsystem_security_event."
+msgstr ""
+"Надає «Небажані події».\n"
+"- Встановлює модуль mgmtsystem_security_event."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_hazard
+msgid ""
+"Provide Hazards.\n"
+"- This installs the module mgmtsystem_hazard."
+msgstr ""
+"Надає інструменти для небезпек.\n"
+"- Встановлює модуль mgmtsystem_hazard."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_work_instruction
+msgid ""
+"Provide Work Instructions category.\n"
+"- This installs the module document_page_work_instruction."
+msgstr ""
+"Надає категорію робочих інструкцій.\n"
+"- Встановлює модуль document_page_work_instruction."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_health_safety_manual
+msgid ""
+"Provide a health and safety manual template.\n"
+"- This installs the module document_page_health_safety_manual."
+msgstr ""
+"Надає шаблон посібника з охорони праці та безпеки.\n"
+"- Встановлює модуль document_page_health_safety_manual."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_quality_manual
+msgid ""
+"Provide a quality manual template.\n"
+"- This installs the module document_page_quality_manual."
+msgstr ""
+"Надає шаблон посібника з якості.\n"
+"- Встановлює модуль document_page_quality_manual."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_action
+msgid ""
+"Provide actions and improvement opportunities tools.\n"
+"- This installs the module mgmtsystem_action."
+msgstr ""
+"Надає інструменти дій і можливостей удосконалення.\n"
+"- Встановлює модуль mgmtsystem_action."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_environment_manual
+msgid ""
+"Provide an environment manual template.\n"
+"- This installs the module document_page_environment_manual."
+msgstr ""
+"Надає шаблон посібника з довкілля.\n"
+"- Встановлює модуль document_page_environment_manual."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_info_security_manual
+msgid ""
+"Provide an information security manual.\n"
+"- This installs the module mgmtsystem_info_security_manual."
+msgstr ""
+"Надає посібник з інформаційної безпеки.\n"
+"- Встановлює модуль mgmtsystem_info_security_manual."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_audit
+msgid ""
+"Provide audit tools.\n"
+"- This installs the module mgmtsystem_audit."
+msgstr ""
+"Надає інструменти аудиту.\n"
+"- Встановлює модуль mgmtsystem_audit."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_claim
+msgid ""
+"Provide claim tools.\n"
+"- This installs the module mgmtsystem_claim."
+msgstr ""
+"Надає інструменти претензій.\n"
+"- Встановлює модуль mgmtsystem_claim."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_approval
+msgid ""
+"Provide document approval and history. \n"
+"- This installs the module document_page_approval."
+msgstr ""
+"Надає погодження документів та історію.\n"
+"- Встановлює модуль document_page_approval."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_environment
+msgid ""
+"Provide environment management tools.\n"
+"- This installs the module mgmtsystem_environment."
+msgstr ""
+"Надає інструменти керування довкіллям.\n"
+"- Встановлює модуль mgmtsystem_environment."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_health_safety
+msgid ""
+"Provide health and safety management tools.\n"
+"- This installs the module mgmtsystem_health_safety."
+msgstr ""
+"Надає інструменти керування охороною праці та безпекою.\n"
+"- Встановлює модуль mgmtsystem_health_safety."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_information_security
+msgid ""
+"Provide information security tools.\n"
+"- This installs the module mgmtsystem_information_security."
+msgstr ""
+"Надає інструменти інформаційної безпеки.\n"
+"- Встановлює модуль mgmtsystem_information_security."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_nonconformity
+msgid ""
+"Provide non conformity tools.\n"
+"- This installs the module mgmtsystem_nonconformity."
+msgstr ""
+"Надає інструменти невідповідностей.\n"
+"- Встановлює модуль mgmtsystem_nonconformity."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_document_page_procedure
+msgid ""
+"Provide procedures category.\n"
+"- This installs the module document_page_procedure."
+msgstr ""
+"Надає категорію процедур.\n"
+"- Встановлює модуль document_page_procedure."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_quality
+msgid ""
+"Provide quality management tools.\n"
+"- This installs the module mgmtsystem_quality."
+msgstr ""
+"Надає інструменти керування якістю.\n"
+"- Встановлює модуль mgmtsystem_quality."
+
+#. module: mgmtsystem
+#: model:ir.model.fields,help:mgmtsystem.field_res_config_settings__module_mgmtsystem_review
+msgid ""
+"Provide review tools.\n"
+"- This installs the module mgmtsystem_review."
+msgstr ""
+"Надає інструменти огляду.\n"
+"- Встановлює модуль mgmtsystem_review."
+
+#. module: mgmtsystem
+#: model:res.groups,name:mgmtsystem.group_mgmtsystem_viewer
+msgid "Viewer"
+msgstr "Переглядач"

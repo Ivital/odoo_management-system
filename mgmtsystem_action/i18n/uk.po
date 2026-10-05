@@ -593,3 +593,37 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: mgmtsystem_action
+#: model:mail.template,name:mgmtsystem_action.email_template_new_action_reminder
+msgid "Action Assigned"
+msgstr "Дію призначено"
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_stage
+msgid "Action Stage"
+msgstr "Етап дії"
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_tag
+msgid "Action Tags"
+msgstr "Теги дії"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__sequence
+msgid "Gives the sequence order when displaying a list of actions."
+msgstr "Визначає порядок послідовності під час відображення списку дій."
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_report
+msgid "Management System Action Report"
+msgstr "Звіт дії системи управління"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action_stage__fold
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr ""
+"Цей етап згортається в канбані, коли на ньому немає записів для "
+"відображення."

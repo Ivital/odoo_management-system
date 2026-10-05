@@ -550,3 +550,33 @@ msgstr "Звіт списку перевірок"
 #: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: mgmtsystem_audit
+#: model:base.automation,name:mgmtsystem_audit.rule_set_prepare_to_audit
+msgid "Email all auditors 2 weeks before audit."
+msgstr "Надіслати email усім аудиторам за 2 тижні до аудиту."
+
+#. module: mgmtsystem_audit
+#: model:base.automation,name:mgmtsystem_audit.rule_set_send_verification_list
+msgid "Email all followers 1 week before audit."
+msgstr "Надіслати email усім підписникам за 1 тиждень до аудиту."
+
+#. module: mgmtsystem_audit
+#: model:mail.template,subject:mgmtsystem_audit.template_email_prepare_to_audit
+msgid "Prepare to Audit: \"{{object.name}}\""
+msgstr "Підготувати до аудиту: \"{{object.name}}\""
+
+#. module: mgmtsystem_audit
+#: model:mail.template,name:mgmtsystem_audit.template_email_prepare_to_audit
+msgid "Prepare to audit"
+msgstr "Підготувати до аудиту"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,name:mgmtsystem_audit.template_email_send_verification_list
+msgid "Send Verification List"
+msgstr "Надіслати список перевірки"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,subject:mgmtsystem_audit.template_email_send_verification_list
+msgid "Send Verification List: \"{{object.name}}\""
+msgstr "Надіслати список перевірки: \"{{object.name}}\""

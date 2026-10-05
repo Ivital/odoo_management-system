@@ -33,3 +33,8 @@ msgstr "Невідповідність"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_hazard.field_mgmtsystem_nonconformity__hazard_ids
 msgid "Risk Analysis"
 msgstr "Аналіз ризиків"
+
+#. module: mgmtsystem_nonconformity_hazard
+#: model:ir.model,name:mgmtsystem_nonconformity_hazard.model_mgmtsystem_hazard
+msgid "Hazards of the health and safety management system"
+msgstr "Небезпеки системи управління охороною праці"

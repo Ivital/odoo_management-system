@@ -563,3 +563,61 @@ msgstr ""
 "Ви можете створювати етапи претензій системи управління, щоб класифікувати стан кожної\n"
 "                претензії, внесеної до системи. Етапи визначають усі кроки,\n"
 "                необхідні для врегулювання претензії."
+
+#. module: mgmtsystem_claim
+#: model:ir.model,name:mgmtsystem_claim.model_mgmtsystem_claim
+msgid "Claim for Management System"
+msgstr "Претензія системи управління"
+
+#. module: mgmtsystem_claim
+#: model:ir.model,name:mgmtsystem_claim.model_mgmtsystem_claim_stage
+msgid "Claim stages for Management system"
+msgstr "Етапи претензій системи управління"
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim__email_from
+msgid "Destination email for email gateway."
+msgstr "Електронна адреса призначення для поштового шлюзу."
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim_stage__case_default
+msgid ""
+"If you check this field, this stage will be proposed by default on each "
+"sales team. It will not assign this stage to existing teams."
+msgstr ""
+"Якщо позначено, цей етап буде пропонуватися за замовчуванням для кожної "
+"команди продажів. Існуючим командам він не призначатиметься."
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim_stage__team_ids
+msgid ""
+"Link between stages and sales teams. When set, this limitate the current "
+"stage to the selected sales teams."
+msgstr ""
+"Зв’язок між етапами та командами продажів. Якщо задано, поточний етап буде "
+"обмежено вибраними командами продажів."
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim__team_id
+msgid ""
+"Responsible sales team. Define Responsible user and Email account for mail "
+"gateway."
+msgstr ""
+"Відповідальна команда продажів. Визначає відповідального користувача й "
+"обліковий запис електронної пошти для поштового шлюзу."
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim__email_cc
+msgid ""
+"These email addresses will be added to the CC field of all inbound and "
+"outbound emails for this record before being sent. Separate multiple email "
+"addresses with a comma"
+msgstr ""
+"Ці електронні адреси буде додано до поля CC усіх вхідних і вихідних листів "
+"цього запису перед надсиланням. Розділяйте кілька адрес комами"
+
+#. module: mgmtsystem_claim
+#: model:ir.model.fields,help:mgmtsystem_claim.field_mgmtsystem_claim_stage__sequence
+msgid "Used to order stages. Lower is better."
+msgstr ""
+"Використовується для впорядкування етапів. Менше значення — вищий пріоритет."

@@ -88,3 +88,13 @@ msgstr "Шаблон посилання"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
 msgid "Template title..."
 msgstr "Назва шаблону..."
+
+#. module: mgmtsystem_action_template
+#: model:ir.model,name:mgmtsystem_action_template.model_mgmtsystem_action_template
+msgid "Define fields to save action template values"
+msgstr "Визначити поля для збереження значень шаблону дії"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,help:mgmtsystem_action_template.field_mgmtsystem_action__template_id
+msgid "Fill Action's fields with Template's values"
+msgstr "Заповнити поля дії значеннями шаблону"

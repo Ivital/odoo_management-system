@@ -68,3 +68,8 @@ msgstr "Перевірена кількість"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__qty_noncompliant
 msgid "Quantity non-compliant"
 msgstr "Кількість не відповідає вимогам"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:mail.template,subject:mgmtsystem_nonconformity_type.email_template_nonconformity
+msgid "Nonconformity N° {{object.id}}: {{object.name}}"
+msgstr "Невідповідність № {{object.id}}: {{object.name}}"

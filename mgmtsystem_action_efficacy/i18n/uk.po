@@ -32,3 +32,9 @@ msgstr "Рейтинг"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_action_efficacy.view_mgmtsystem_action_form
 msgid "Efficacy"
 msgstr "Ефективність"
+
+#. module: mgmtsystem_action_efficacy
+#: model:ir.model.fields,help:mgmtsystem_action_efficacy.field_mgmtsystem_action__efficacy_value
+msgid "0:not effective | 50:efficacy not complete | 100: effective"
+msgstr ""
+"0: неефективно | 50: оцінювання ефективності не завершено | 100: ефективно"

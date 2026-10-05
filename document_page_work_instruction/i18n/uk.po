@@ -38,3 +38,8 @@ msgstr "Робоча інструкція"
 #: model_terms:ir.actions.act_window,help:document_page_work_instruction.work_instructions_action
 msgid "Work instructions of your management system."
 msgstr "Робочі інструкції вашої системи управління."
+
+#. module: document_page_work_instruction
+#: model:ir.model.fields,help:document_page_work_instruction.field_document_page__mgmtsystem_page_type
+msgid "Classification of the management system document page."
+msgstr "Класифікація сторінки документа системи управління."

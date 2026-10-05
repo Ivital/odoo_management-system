@@ -475,3 +475,8 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: mgmtsystem_objective
+#: model:ir.model,name:mgmtsystem_objective.model_mgmtsystem_indicator_value
+msgid "Indicator Value"
+msgstr "Значення індикатора"
