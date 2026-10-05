@@ -417,3 +417,136 @@ msgstr "_Скасувати"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.copy_verification_lines_form_view
 msgid "_Copy"
 msgstr "_Копіювати"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Audit Report</strong>"
+msgstr "<strong>Аудиторський звіт</strong>"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Improvement opportunities:</strong>"
+msgstr "<strong>Можливості покращення:</strong>"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Nonconformities:</strong>"
+msgstr "<strong>Невідповідності:</strong>"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Points To Improve:</strong>"
+msgstr "<strong>Що потрібно покращити:</strong>"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Strong points:</strong>"
+msgstr "<strong>Сильні сторони:</strong>"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "<strong>Verification List</strong>"
+msgstr "<strong>Список перевірки</strong>"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__days_since_last_update
+msgid "Days Since Last Update"
+msgstr "Днів від останнього оновлення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.actions.act_window,help:mgmtsystem_audit.action_report_mgmtsystem_audit
+msgid ""
+"Have a general overview of all audits processed in the system by sorting "
+"them with specific criteria."
+msgstr ""
+"Отримайте загальний огляд усіх аудитів у системі, сортуючи їх за визначеними"
+" критеріями."
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.action_report_mgmtsystem_audit
+msgid "Management System Audit Analysis"
+msgstr "Аналіз аудиту системи управління"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_nonconformities
+msgid "Number Of Nonconformities"
+msgstr "Кількість невідповідностей"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_questions_in_verification_list
+msgid "Number Of Questions In Verification List"
+msgstr "Кількість запитань у списку перевірки"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_improvements_opportunity
+msgid "Number of improvements Opportunities"
+msgstr "Кількість можливостей для покращення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__to_improve_points
+msgid "Points To Improve"
+msgstr "Пункти для покращення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "To Improve Points"
+msgstr "Пункти для покращення"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.report,name:mgmtsystem_audit.verification_report_mgmtsystem_audit
+msgid "Verification list report"
+msgstr "Звіт списку перевірок"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

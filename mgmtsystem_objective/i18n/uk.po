@@ -401,3 +401,77 @@ msgstr "Щороку"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_objective.mgmtsystem_indicator_tree_view
 msgid "open"
 msgstr "відкрити"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__activity_type_icon
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__has_max_target
+msgid "Has Maximum Target"
+msgstr "Є максимальна ціль"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,field_description:mgmtsystem_objective.field_mgmtsystem_indicator__has_min_target
+msgid "Has Minimum Target"
+msgstr "Є мінімальна ціль"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__activity_exception_icon
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__message_needaction
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__message_has_sms_error
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__message_needaction_counter
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__message_has_error_counter
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__activity_state
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__activity_exception_decoration
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: mgmtsystem_objective
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_indicator__website_message_ids
+#: model:ir.model.fields,help:mgmtsystem_objective.field_mgmtsystem_objective__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

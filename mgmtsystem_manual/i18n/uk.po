@@ -33,3 +33,8 @@ msgstr "Посібники"
 #: model:ir.model,name:mgmtsystem_manual.model_mgmtsystem_system
 msgid "System"
 msgstr "Система"
+
+#. module: mgmtsystem_manual
+#: model_terms:ir.actions.act_window,help:mgmtsystem_manual.action_manuals
+msgid "Manuals of your management systems."
+msgstr "Посібники ваших систем управління."

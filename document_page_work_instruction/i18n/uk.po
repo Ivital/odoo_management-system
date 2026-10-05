@@ -23,3 +23,18 @@ msgstr "Робочі інструкції"
 #: model:ir.model,name:document_page_work_instruction.model_document_page
 msgid "Document Page"
 msgstr "Сторінка документа"
+
+#. module: document_page_work_instruction
+#: model:ir.model.fields,field_description:document_page_work_instruction.field_document_page__mgmtsystem_page_type
+msgid "Management System Page Type"
+msgstr "Тип сторінки системи управління"
+
+#. module: document_page_work_instruction
+#: model:ir.model.fields.selection,name:document_page_work_instruction.selection__document_page__mgmtsystem_page_type__work_instruction
+msgid "Work Instruction"
+msgstr "Робоча інструкція"
+
+#. module: document_page_work_instruction
+#: model_terms:ir.actions.act_window,help:document_page_work_instruction.work_instructions_action
+msgid "Work instructions of your management system."
+msgstr "Робочі інструкції вашої системи управління."

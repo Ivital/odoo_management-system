@@ -175,3 +175,13 @@ msgstr "Оцінка ризику"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.res_config_settings_view_form
 msgid "Values set here are company-specific."
 msgstr "Значення, задані тут, є специфічними для компанії."
+
+#. module: mgmtsystem_hazard_risk
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.res_config_settings_view_form
+msgid "Risk Computation formula"
+msgstr "Формула обчислення ризику"
+
+#. module: mgmtsystem_hazard_risk
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_hazard_risk.res_config_settings_view_form
+msgid "Risk computation"
+msgstr "Розрахунок ризику"

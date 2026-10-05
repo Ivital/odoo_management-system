@@ -58,3 +58,13 @@ msgstr "Невідповідність"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity_type.view_mgmtsystem_nonconformity_form
 msgid "Send by Email"
 msgstr "Надіслати електронною поштою"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__qty_checked
+msgid "Quantity checked"
+msgstr "Перевірена кількість"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__qty_noncompliant
+msgid "Quantity non-compliant"
+msgstr "Кількість не відповідає вимогам"

@@ -23,3 +23,8 @@ msgstr "Перевірка"
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_review_survey.view_mgmtsystem_review_form
 msgid "Survey Answers"
 msgstr "Відповіді опитування"
+
+#. module: mgmtsystem_review_survey
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review_survey.review_report
+msgid "<strong>Satisfaction Survey Answers:</strong>"
+msgstr "<strong>Відповіді опитування задоволеності:</strong>"

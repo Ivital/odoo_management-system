@@ -23,3 +23,8 @@ msgstr "Процедура"
 #: model:ir.ui.menu,name:document_page_procedure.menu_mgmtsystem_manuals_procedures
 msgid "Procedures"
 msgstr "Процедури"
+
+#. module: document_page_procedure
+#: model_terms:ir.actions.act_window,help:document_page_procedure.action_procedures
+msgid "Procedures of your management system."
+msgstr "Процедури вашої системи управління."

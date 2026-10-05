@@ -355,3 +355,82 @@ msgstr "Стан:"
 #: model:ir.model.fields,field_description:mgmtsystem_review.field_mgmtsystem_review__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: mgmtsystem_review
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
+msgid "<strong>Changes affecting the management systems:</strong>"
+msgstr "<strong>Зміни, що впливають на системи управління:</strong>"
+
+#. module: mgmtsystem_review
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
+msgid "<strong>Conclusion:</strong>"
+msgstr "<strong>Висновок:</strong>"
+
+#. module: mgmtsystem_review
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
+msgid "<strong>Policies:</strong>"
+msgstr "<strong>Політики:</strong>"
+
+#. module: mgmtsystem_review
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review.review_report
+msgid "<strong>Review Report</strong>"
+msgstr "<strong>Звіт перевірки</strong>"
+
+#. module: mgmtsystem_review
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review.view_mgmtsystem_review_form
+msgid "Changes affecting the management systems"
+msgstr "Зміни, що впливають на системи управління"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: mgmtsystem_review
+#: model:ir.model.fields,help:mgmtsystem_review.field_mgmtsystem_review__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

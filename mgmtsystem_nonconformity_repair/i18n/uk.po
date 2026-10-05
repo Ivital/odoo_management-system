@@ -23,3 +23,8 @@ msgstr "Ремонтне замовлення"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_repair.field_repair_order__mgmtsystem_nonconformity_ids
 msgid "Non-Conformities"
 msgstr "Невідповідності"
+
+#. module: mgmtsystem_nonconformity_repair
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_repair.field_repair_order__mgmtsystem_nonconformity_count
+msgid "# Non-Conformities"
+msgstr "Кількість невідповідностей"

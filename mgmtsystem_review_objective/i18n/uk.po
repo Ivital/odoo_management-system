@@ -32,3 +32,18 @@ msgstr "Період"
 #: model:ir.model.fields,field_description:mgmtsystem_review_objective.field_mgmtsystem_review__start_date
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: mgmtsystem_review_objective
+#: model:ir.model.fields,field_description:mgmtsystem_review_objective.field_mgmtsystem_review__objective_domain
+msgid "Objective Domain"
+msgstr "Домен цілі"
+
+#. module: mgmtsystem_review_objective
+#: model:ir.actions.act_window,name:mgmtsystem_review_objective.mgmtsystem_indicator_value_action
+msgid "Review Objectives"
+msgstr "Цілі перевірки"
+
+#. module: mgmtsystem_review_objective
+#: model:ir.model.fields,field_description:mgmtsystem_review_objective.field_mgmtsystem_review__objective_ids
+msgid "Reviewed objectives"
+msgstr "Переглянуті цілі"

@@ -578,3 +578,231 @@ msgstr "Непрочитані повідомлення"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__number_of_nonconformities
+msgid "# of nonconformities"
+msgstr "Кількість невідповідностей"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.actions.report,print_report_name:mgmtsystem_nonconformity.action_mgmtsystem_nonconformity_report
+msgid "'Non-Conformity - %s' % (object.ref)"
+msgstr "'Невідповідність - %s' % (object.ref)"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<span>Non-Conformity #</span>"
+msgstr "<span>Невідповідність №</span>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Actions:</strong>"
+msgstr "<strong>Дії:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Analysis Confirmation:</strong>"
+msgstr "<strong>Підтвердження аналізу:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Analysis:</strong>"
+msgstr "<strong>Аналіз:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Causes:</strong>"
+msgstr "<strong>Причини:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Date Created:</strong>"
+msgstr "<strong>Дата створення:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Effectiveness Review:</strong>"
+msgstr "<strong>Огляд ефективності:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Filled in by:</strong>"
+msgstr "<strong>Заповнив(ла):</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Manager:</strong>"
+msgstr "<strong>Керівник:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Partner:</strong>"
+msgstr "<strong>Контрагент:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Plan Review:</strong>"
+msgstr "<strong>Огляд плану:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Procedures:</strong>"
+msgstr "<strong>Процедури:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>Related to:</strong>"
+msgstr "<strong>Пов’язано з:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.report_mgmtsystem_nonconformity_document
+msgid "<strong>System:</strong>"
+msgstr "<strong>Система:</strong>"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
+msgid "Add a description ..."
+msgstr "Додайте опис ..."
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
+msgid "Analysis Confirmation"
+msgstr "Підтвердження аналізу"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
+msgid "Causes and Analysis"
+msgstr "Причини та аналіз"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_cause_form
+msgid "Causes of nonconformity"
+msgstr "Причини невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
+msgid "Closed Nonconformities"
+msgstr "Закриті невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__days_since_updated
+msgid "Days Since Updated"
+msgstr "Днів від останнього оновлення"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
+msgid "Draft/New nonconformities"
+msgstr "Чернетки/нові невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_form
+msgid "Effectiveness Review"
+msgstr "Перевірка ефективності"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.actions.act_window,help:mgmtsystem_nonconformity.action_report_mgmtsystem_nonconformity
+msgid ""
+"Have a general overview of all non conformities processed in the system by "
+"sorting them with specific criteria."
+msgstr ""
+"Отримайте загальний огляд усіх невідповідностей у системі, сортуючи їх за "
+"визначеними критеріями."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity_stage__is_starting
+msgid "Is starting Stage"
+msgstr "Є початковим етапом"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.actions.report,name:mgmtsystem_nonconformity.action_mgmtsystem_nonconformity_report
+msgid "Non-Conformity Report"
+msgstr "Звіт про невідповідність"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
+msgid "Nonconformities pending review"
+msgstr "Невідповідності, що очікують перегляду"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity.field_mgmtsystem_action__nonconformity_immediate_id
+msgid "Nonconformity Immediate"
+msgstr "Негайна невідповідність"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.mgmtsystem_nonconformity_stage_form_view
+msgid "Nonconformity Stage"
+msgstr "Етап невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_filter
+msgid "Open Nonconformities"
+msgstr "Відкриті невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_nonconformity_origin_form
+msgid "Origins of nonconformity"
+msgstr "Походження невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields.selection,name:mgmtsystem_nonconformity.selection__mgmtsystem_nonconformity__kanban_state__done
+msgid "Ready for next stage"
+msgstr "Готово до наступного етапу"
+
+#. module: mgmtsystem_nonconformity
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity.view_mgmtsystem_action_form
+msgid "Related Nonconformities"
+msgstr "Пов’язані невідповідності"
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: mgmtsystem_nonconformity
+#: model:ir.model.fields,help:mgmtsystem_nonconformity.field_mgmtsystem_nonconformity__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
