@@ -969,3 +969,31 @@ msgid ""
 msgstr ""
 "позначте цей прапорець, якщо це типовий етап\n"
 "для нових невідповідностей"
+
+#. module: mgmtsystem_nonconformity
+#. odoo-python
+#: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:0
+msgid ""
+"Action plan  comments are required in order to put a nonconformity In "
+"Progress."
+msgstr ""
+"Для переведення невідповідності у стан «В роботі» потрібні коментарі плану "
+"дій."
+
+#. module: mgmtsystem_nonconformity
+#. odoo-python
+#: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:0
+msgid "All actions must be done before closing a Nonconformity."
+msgstr "Усі дії потрібно виконати до закриття невідповідності."
+
+#. module: mgmtsystem_nonconformity
+#. odoo-python
+#: code:addons/mgmtsystem_nonconformity/models/mgmtsystem_nonconformity.py:0
+msgid "Evaluation Comments are required in order to close a Nonconformity."
+msgstr "Для закриття невідповідності потрібні коментарі оцінювання."
+
+#. module: mgmtsystem_nonconformity
+#. odoo-javascript
+#: code:addons/mgmtsystem_nonconformity/static/src/components/chatter_topbar/chatter_topbar.xml:0
+msgid "Non conformities"
+msgstr "Невідповідності"

@@ -73,3 +73,25 @@ msgstr "Кількість не відповідає вимогам"
 #: model:mail.template,subject:mgmtsystem_nonconformity_type.email_template_nonconformity
 msgid "Nonconformity N° {{object.id}}: {{object.name}}"
 msgstr "Невідповідність № {{object.id}}: {{object.name}}"
+
+#. module: mgmtsystem_nonconformity_type
+#. odoo-python
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
+#: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
+msgid ""
+"The partner's contacts quality type isn't available.\n"
+" Check if module mgmtsystem_nonconformity_partner is installed."
+msgstr ""
+"Тип контакту партнера з якості недоступний.\n"
+" Перевірте, чи встановлено модуль mgmtsystem_nonconformity_partner."
+
+#. module: mgmtsystem_nonconformity_type
+#. odoo-python
+#: code:addons/mgmtsystem_nonconformity_type/models/mgmtsystem_nonconformity.py:0
+#: code:addons/mgmtsystem_nonconformity_type/tests/test_nonconformity_type.py:0
+msgid ""
+"The partner's quality contact email is required in order to send the "
+"message."
+msgstr ""
+"Для надсилання повідомлення потрібна електронна адреса контакту партнера з "
+"якості."

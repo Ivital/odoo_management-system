@@ -38,3 +38,10 @@ msgstr "Ефективність"
 msgid "0:not effective | 50:efficacy not complete | 100: effective"
 msgstr ""
 "0: неефективно | 50: оцінювання ефективності не завершено | 100: ефективно"
+
+#. module: mgmtsystem_action_efficacy
+#. odoo-python
+#: code:addons/mgmtsystem_action_efficacy/models/mgmtsystem_action.py:0
+#: code:addons/mgmtsystem_action_efficacy/tests/test_efficacy.py:0
+msgid "Rating must be between 0 and 100"
+msgstr "Оцінка має бути від 0 до 100"

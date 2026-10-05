@@ -627,3 +627,9 @@ msgid ""
 msgstr ""
 "Цей етап згортається в канбані, коли на ньому немає записів для "
 "відображення."
+
+#. module: mgmtsystem_action
+#. odoo-python
+#: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:0
+msgid "We cannot bring back the action to draft stage"
+msgstr "Не можна повернути дію до етапу чернетки"

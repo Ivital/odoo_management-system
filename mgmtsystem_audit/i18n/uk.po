@@ -580,3 +580,9 @@ msgstr "Надіслати список перевірки"
 #: model:mail.template,subject:mgmtsystem_audit.template_email_send_verification_list
 msgid "Send Verification List: \"{{object.name}}\""
 msgstr "Надіслати список перевірки: \"{{object.name}}\""
+
+#. module: mgmtsystem_audit
+#. odoo-python
+#: code:addons/mgmtsystem_audit/models/mgmtsystem_audit.py:0
+msgid "Audit closed"
+msgstr "Аудит закрито"

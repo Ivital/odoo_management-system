@@ -205,3 +205,11 @@ msgstr "Залишкові ризики небезпеки"
 #: model:ir.model,name:mgmtsystem_hazard_risk.model_mgmtsystem_hazard_risk_type
 msgid "Risk type of the hazard"
 msgstr "Тип ризику небезпеки"
+
+#. module: mgmtsystem_hazard_risk
+#. odoo-python
+#: code:addons/mgmtsystem_hazard_risk/models/common.py:0
+msgid "You must define the company's risk computing formula. Go to settings"
+msgstr ""
+"Потрібно визначити формулу розрахунку ризику компанії. Перейдіть до "
+"налаштувань"
