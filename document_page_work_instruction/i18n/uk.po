@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.ui.menu,name:document_page_work_instruction.menu_mgmtsystem_manuals_work_instructions
 msgid "Work Instructions"
 msgstr "Робочі інструкції"
+
+#. module: document_page_work_instruction
+#: model:ir.model,name:document_page_work_instruction.model_document_page
+msgid "Document Page"
+msgstr "Сторінка документа"

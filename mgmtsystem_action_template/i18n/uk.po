@@ -53,3 +53,23 @@ msgstr "Відповідальний"
 #: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__tag_ids
 msgid "Tags"
 msgstr "Теги"
+
+#. module: mgmtsystem_action_template
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
+msgid "Action Template"
+msgstr "Шаблон дії"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__type_action
+msgid "Response Type"
+msgstr "Тип відповіді"

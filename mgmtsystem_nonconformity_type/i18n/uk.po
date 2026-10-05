@@ -37,3 +37,24 @@ msgstr "Постачальник"
 #: model:ir.model.fields,field_description:mgmtsystem_nonconformity_type.field_mgmtsystem_nonconformity__nc_type
 msgid "Type"
 msgstr "Тип"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:ir.model.fields.selection,name:mgmtsystem_nonconformity_type.selection__mgmtsystem_nonconformity__nc_type__external
+msgid "External"
+msgstr "Зовнішній"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:ir.model.fields.selection,name:mgmtsystem_nonconformity_type.selection__mgmtsystem_nonconformity__nc_type__internal
+msgid "Internal"
+msgstr "Внутрішній"
+
+#. module: mgmtsystem_nonconformity_type
+#: model:ir.model,name:mgmtsystem_nonconformity_type.model_mgmtsystem_nonconformity
+#: model:mail.template,name:mgmtsystem_nonconformity_type.email_template_nonconformity
+msgid "Nonconformity"
+msgstr "Невідповідність"
+
+#. module: mgmtsystem_nonconformity_type
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity_type.view_mgmtsystem_nonconformity_form
+msgid "Send by Email"
+msgstr "Надіслати електронною поштою"

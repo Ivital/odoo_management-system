@@ -17,3 +17,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity_hazard.mgmtsystem_nonconformity_form_view
 msgid "Hazards"
 msgstr "Небезпеки"
+
+#. module: mgmtsystem_nonconformity_hazard
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_nonconformity_hazard.mgmtsystem_hazard_form_view
+msgid "Nonconfomity"
+msgstr "Невідповідність"
+
+#. module: mgmtsystem_nonconformity_hazard
+#: model:ir.model,name:mgmtsystem_nonconformity_hazard.model_mgmtsystem_nonconformity
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_hazard.field_mgmtsystem_hazard__nonconformity_ids
+msgid "Nonconformity"
+msgstr "Невідповідність"
+
+#. module: mgmtsystem_nonconformity_hazard
+#: model:ir.model.fields,field_description:mgmtsystem_nonconformity_hazard.field_mgmtsystem_nonconformity__hazard_ids
+msgid "Risk Analysis"
+msgstr "Аналіз ризиків"

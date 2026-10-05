@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model,name:mgmtsystem_review_survey.model_mgmtsystem_review
 msgid "Review"
 msgstr "Перевірка"
+
+#. module: mgmtsystem_review_survey
+#: model:ir.model.fields,field_description:mgmtsystem_review_survey.field_mgmtsystem_review__response_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_review_survey.view_mgmtsystem_review_form
+msgid "Survey Answers"
+msgstr "Відповіді опитування"

@@ -18,3 +18,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:mgmtsystem_partner.field_res_users__type
 msgid "Address Type"
 msgstr "Тип адреси"
+
+#. module: mgmtsystem_partner
+#: model:ir.model.fields.selection,name:mgmtsystem_partner.selection__res_partner__type__quality
+msgid "Quality Address"
+msgstr "Адреса якості"
